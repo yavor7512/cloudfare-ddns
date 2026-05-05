@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "unifi-cloudflare-ddns",
+  "main": "cloudflare-ddns-worker.js",
+  "compatibility_date": "2026-05-05",
+  "workers_dev": true,
+  "keep_vars": true,
+  "observability": {
+    "enabled": true
+  }
+}

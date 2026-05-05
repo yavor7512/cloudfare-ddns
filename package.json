@@ -3,11 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test cloudflare-ddns-worker.test.js"
+    "test": "node --test cloudflare-ddns-worker.test.js",
+    "deploy": "wrangler deploy",
+    "upload": "wrangler versions upload"
   },
   "devDependencies": {
     "basic-auth": "^2.0.1",
     "ipaddr.js": "^2.4.0",
-    "validator": "^13.15.35"
+    "validator": "^13.15.35",
+    "wrangler": "^4.68.0"
   }
 }
